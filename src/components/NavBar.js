@@ -9,7 +9,7 @@ function NavBar({ title, about, mode, toggleMode }) {
         className={`navbar navbar-expand-lg bg-body-tertiar navbar-${mode} bg-${mode}`}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             {title}
           </a>
           <button
